@@ -1,19 +1,17 @@
 {
-  "name": "contactbook_backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "contactbook-frontend",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mongodb": "^5.9.0"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.11"
   }
 }
